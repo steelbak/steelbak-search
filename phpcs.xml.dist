@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ruleset name="Steelbak Search">
+    <description>PHP_CodeSniffer configuration for the Steelbak Search plugin.</description>
+
+    <file>steelbak-search.php</file>
+    <file>src</file>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>tests/fixtures/*</exclude-pattern>
+
+    <rule ref="PSR12">
+        <exclude name="PSR1.Files.SideEffects.FoundWithSymbols" />
+    </rule>
+
+    <arg name="basepath" value="." />
+    <arg name="parallel" value="8" />
+    <arg value="sp" />
+</ruleset>

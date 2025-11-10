@@ -1,0 +1,32 @@
+# Build artifacts
+/vendor/
+/node_modules/
+/dist/
+/build/
+/.cache/
+
+# Dependency & environment files
+composer.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.env
+.env.*
+
+# IDE & editor directories
+.idea/
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test & coverage
+.phpunit.result.cache
+coverage/
+var/
+
+# Logs
+*.log
+logs/

@@ -1,0 +1,31 @@
+{
+    "name": "steelbak/steelbak-search",
+    "description": "Steelbak-branded, extensible search framework for WordPress sites.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Steelbak",
+            "homepage": "https://steelbak.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Steelbak\\\\Search\\\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Steelbak\\\\Search\\\\Tests\\\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
