@@ -51,7 +51,7 @@
 ## Next Steps Toward Full PRD
 1. Validate MVP scope with stakeholders (you, product marketing, ops).
 2. Outline user stories and acceptance criteria per module (Indexing, Search UI, Analytics, Admin).
-3. Define success metrics (search latency, coverage, engagement).
+3. Define value-focused success metrics (e.g. ≥95% content coverage, ≥75% search-to-click CTR, 50% reduction in zero-hit queries, median discovery time ≤5s, secure three implementation/hosting deals in 6 months, five community PRs).
 4. Produce technical risk assessment (DB size, relevance tuning, caching strategy).
 5. Schedule build milestones and resource estimates once scaffolding is in place.
 
